@@ -5,8 +5,8 @@ require('class.php');
 @ini_set('max_execution_time',0);
 @ini_set('output_buffering',0);
 
-echo "TurkHackTeam.Org - Quiec Gururla Sunar!";
-echo "Kardeşim Kullanıyorsun Bir Teşekkürü Eksik Etmezsin :)";
+echo "TurkHackTeam.Org - Quiec Gururla Sunar!\n";
+echo "Kardeşim Kullanıyorsun Bir Teşekkürü Eksik Etmezsin :)\n";
 
 echo " -----------------------------";
 
