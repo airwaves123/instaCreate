@@ -103,7 +103,7 @@ class instaCreator {
 					$catat  = fwrite($file, ''.$randomUser_User_Name.':'.$randomUser_Password.'<br>');
 					fclose($file);
 					echo "[!] Bir hesap açıldı. Test ediliyor...";
-						$kadi = json_decode(file_get_contents('insta-node.herokuapp.com/_validate_username?username='.$randomUser_User_Name.''), true)['valid'];
+						$kadi = json_decode(file_get_contents('http://insta-node.herokuapp.com/_validate_username?username='.$randomUser_User_Name.''), true)['valid'];
 					if($kadi == false){
 						echo "[!] ".$i.". Açılan hesap: ".$randomUser_User_Name.":".$randomUser_Password."\n";
 						}
