@@ -15,5 +15,5 @@ echo " -----------------------------";
 $i = new instaCreator();
 $i->userCreate($count,"3");
 } else {
-echo "Lütfen Count veriniz. FTP.php?count=10 şeklinde.
+echo "Lütfen Count veriniz. FTP.php?count=10 şeklinde.";
 }
