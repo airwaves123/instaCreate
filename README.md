@@ -5,4 +5,4 @@ Instagram Account Creator.
 Create "proxylist.txt"
 
 ## Why not working?
-You need edit csrf and mid token
+You need edit csrf and mid token in class.php
